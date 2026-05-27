@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training - high-endurance athlete requiring 3000+ calories with carbohydrate and hydration focus",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Total daily calories meet or exceed 3000 kcal",
+      "Carbohydrates comprise 55-65% of total calories with strategic timing around training",
+      "Hydration strategy specified with timing and volume recommendations",
+      "Meal plan is compact and covers exactly one full day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 3000+ calories with emphasis on carbohydrates and hydration timing"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "85 kg",
+      "goal": "Build muscle and strength through weightlifting with optimal protein intake and pre/post-workout nutrition timing",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers full day with 4-5 meals including pre-workout and post-workout nutrition",
+      "Protein intake is 1.6-2.2g per kg of body weight (136-187g total)",
+      "Meals are timed strategically around training session with carbs/protein 1-2 hours before and within 1-2 hours after",
+      "Plan is compact and concise (suitable for quick reference)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-based athlete (weightlifter) needing protein-focused meals with specific macro ratios and meal timing around training windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "78 kg",
+      "goal": "Maintain energy and performance for 2 daily swimming training sessions (morning 90 min, evening 60 min)",
+      "restrictions": "Severe nut allergy (no peanuts, tree nuts, or cross-contamination)"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals plus snacks suitable for 2 daily training sessions",
+      "All foods are nut-free with no risk of cross-contamination",
+      "Provides adequate carbohydrates and protein for swimmer's energy and recovery needs",
+      "Plan is compact and concise (suitable for 1 day reference)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport-specific athlete (swimmer) having dietary restrictions (nut allergy) while maintaining energy for multiple daily training sessions"
+  }
+]
